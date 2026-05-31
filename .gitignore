@@ -1,2 +1,14 @@
-# Google App Engine generated folder
+node_modules/
+.env
+.env.local
+.env.*.local
+.next/
+dist/
+venv/
+__pycache__/
+*.pyc
+coverage/
+frontend/.next/
+frontend/node_modules/
+backend/venv/# Google App Engine generated folder
 appengine-generated/
