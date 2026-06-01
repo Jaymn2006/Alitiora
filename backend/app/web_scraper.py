@@ -11,8 +11,8 @@ from datetime import datetime
 from typing import Optional
 import feedparser
 from sqlmodel import Session, select
-from app.db import engine
-from app.models import (
+from .db import engine
+from .models import (
     LearningDataSource, TrendingContent, UserBehavior,
     FirewallThreat, FirewallLog
 )
