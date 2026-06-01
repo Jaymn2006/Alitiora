@@ -50,7 +50,7 @@ class SelfLearningAI:
                 existing.last_occurrence = time.time()
             else:
                 behavior = UserBehavior(
-                    id=hashlib.md5(
+                    id=hashlib.sha256(
                         f"{user_id}{action_type}{service_name}{time.time()}".encode()
                     ).hexdigest(),
                     user_id=user_id,
