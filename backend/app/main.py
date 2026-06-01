@@ -9,6 +9,8 @@ from .ai_services import router as ai_services_router
 from .messages import router as messages_router
 from .payments import router as payments_router
 from .ipvault import router as ip_router
+from .self_learning_ai import router as learning_router
+from .firewall_ai import router as firewall_router
 
 app = FastAPI(title="Alitiora API")
 
@@ -39,6 +41,8 @@ app.include_router(ai_services_router)
 app.include_router(messages_router)
 app.include_router(payments_router)
 app.include_router(ip_router)
+app.include_router(learning_router)
+app.include_router(firewall_router)
 
 
 @app.on_event("startup")

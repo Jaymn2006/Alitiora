@@ -7,6 +7,7 @@ Detects threats, maintains system health, and prevents learning drift
 import hashlib
 import json
 import os
+import psutil
 import time
 from typing import Dict, Optional, List
 from fastapi import APIRouter, Depends

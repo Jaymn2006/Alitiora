@@ -5,3 +5,5 @@ sqlmodel
 SQLAlchemy
 python-multipart
 aiofiles
+feedparser
+psutil
