@@ -1,3 +1,5 @@
+"""Mock AI service endpoints for code, content, media, IP protection, payments, and moderation."""
+
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
 import time

@@ -1,3 +1,5 @@
+"""Authentication routes and session management for ALITIORA."""
+
 import time
 import uuid
 import hashlib

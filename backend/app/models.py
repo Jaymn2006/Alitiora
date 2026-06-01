@@ -1,3 +1,5 @@
+"""SQLModel schema definitions for users, content, AI tasks, and platform intelligence models."""
+
 from typing import Optional
 from sqlmodel import SQLModel, Field
 

@@ -1,3 +1,5 @@
+"""Simple AI task endpoint implementation for the ALITIORA backend."""
+
 import time
 import uuid
 from fastapi import APIRouter, Depends

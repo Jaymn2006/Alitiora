@@ -1,3 +1,5 @@
+"""Intellectual property vault endpoints for secure content proofing."""
+
 import time
 import uuid
 from typing import Optional

@@ -1,3 +1,5 @@
+"""Payment stub endpoints for ALITIORA monetization flows."""
+
 import time
 import uuid
 from fastapi import APIRouter, HTTPException, Depends

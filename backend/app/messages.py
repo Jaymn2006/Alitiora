@@ -1,3 +1,5 @@
+"""Direct messaging endpoints for creator collaboration and chat."""
+
 import time
 import uuid
 from typing import List

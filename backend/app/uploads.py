@@ -1,3 +1,5 @@
+"""File upload handling and IP evidence generation for creator assets."""
+
 import os
 import time
 import hashlib
