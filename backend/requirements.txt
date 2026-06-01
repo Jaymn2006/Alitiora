@@ -7,3 +7,4 @@ python-multipart
 aiofiles
 feedparser
 psutil
+email-validator
