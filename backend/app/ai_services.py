@@ -110,5 +110,3 @@ def moderation_ai(payload: AIIn, session=Depends(get_session), current_user=Depe
     session.add(task)
     session.commit()
     return {"id": tid, "verdict": verdict, "found": found}
-
-*** End Patch
